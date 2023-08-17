@@ -1,0 +1,13 @@
+cabal-version:      2.4
+name:               haskell-guess-number-game
+version:            0.1.0.0
+author:             masfranzhuo
+maintainer:         masfranzhuo@gmail.com
+extra-source-files: CHANGELOG.md
+
+executable haskell-guess-number-game
+    main-is:          Main.hs
+    build-depends:    base ^>=4.16.4.0
+                    , random ^>=1.2.1.1
+    hs-source-dirs:   app, src
+    default-language: Haskell2010
